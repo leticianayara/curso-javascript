@@ -1,23 +1,14 @@
 //Convertions or Casting
 
-let age = '35'
+let age = 35
 console.log(age, typeof age)
 
-//ParseInt (inteiro)
-age = parseInt(age)
+//Number para String
+//toString
+age = age.toString()
 console.log(age, typeof age)
 
-//ParseFloat (fracionario)
-age = '35.2'
-age = parseFloat(age)
-console.log(age, typeof age)
-
-//Unário (+)
-age = '35.2'
-age = +age
-console.log(age, typeof age)
-
-//Number (numero)
-age = '35.24'
-age = Number(age)
+//String()
+age = 35
+age = String(age)
 console.log(age, typeof age)
