@@ -1,10 +1,15 @@
-//Objeto Data e Hora (Date)
-//Criar um  contador de dias para uma data espeficica. Inicio, Fim. a diferenca
-//de dias entre essas datas
+//Objeto Data e Hora (Date) Idioma
 
-let inicio = new Date('2023/10/15')
-let fim = new Date('2024/11/15')
+//Brasil - DD/MM/AAAA
+//EUA - MM/DD/AAAA
+//Inglaterra - DD/MM/AAAA
 
-let totalDias = (fim - inicio) / (1000 * 3600 * 24)
+let dataIdioma
+dataIdioma = Intl.DateTimeFormat('pt-BR').format(dataIdioma)
+console.log(dataIdioma)
 
-console.log(totalDias)
+// dataIdioma = Intl.DateTimeFormat('en-US').format(dataIdioma)
+// console.log(dataIdioma)
+
+// dataIdioma = Intl.DateTimeFormat('en-GB').format(dataIdioma)
+// console.log(dataIdioma)
