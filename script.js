@@ -1,33 +1,14 @@
-//Operadores de Atribuição
+//Operadores de Comparação
 
-let total = 10
-console.log(total)
+//Igualdade Solta (dado)
+console.log(3 == '3')
 
-//Adicionar 5
-total += 5
-console.log(total)
+//Igualdade Estrita (dado e tipo)
+console.log(3 === '3')
+console.log(3 === 3)
 
-//Subtrair 5
-total = 10
-total -= 5
-console.log(total)
+//Desigualdade Solta (dado)
+console.log(3 != '3')
 
-//Multiplcar 5
-total = 10
-total *= 5
-console.log(total)
-
-//Dividir 5
-total = 10
-total /= 5
-console.log(total)
-
-//Resto 4
-total = 10
-total %= 4
-console.log(total)
-
-//Exponenciação 3
-total = 10
-total **= 3
-console.log(total)
+//Desigualdade Estrita (dado e tipo)
+console.log(3 !== '3')
