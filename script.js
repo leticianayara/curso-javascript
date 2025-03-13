@@ -1,15 +1,11 @@
-//Objeto Data e Hora (Date) Idioma
+//Arrays
 
-//Brasil - DD/MM/AAAA
-//EUA - MM/DD/AAAA
-//Inglaterra - DD/MM/AAAA
+let cart = ['Agua', 'Arroz', 'Carne', 'Feijão']
+console.log(cart)
+console.log(cart[2])
+console.log(cart[0])
+console.log(cart[3])
 
-let dataIdioma
-dataIdioma = Intl.DateTimeFormat('pt-BR').format(dataIdioma)
-console.log(dataIdioma)
+console.log(`A minha comida favorita é ${cart[1]}, ${cart[3]} e ${cart[2]} `)
 
-// dataIdioma = Intl.DateTimeFormat('en-US').format(dataIdioma)
-// console.log(dataIdioma)
-
-// dataIdioma = Intl.DateTimeFormat('en-GB').format(dataIdioma)
-// console.log(dataIdioma)
+console.log(`A minha lista de compras para hoje contém os itens: ${cart}`)
