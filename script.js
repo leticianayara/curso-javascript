@@ -1,42 +1,33 @@
-//Operadores Aritméticos
+//Operadores de Atribuição
 
-//Adição
-let total = 6 + 6
-console.log('adicao: ' + total)
+let total = 10
+console.log(total)
 
-//Subtração
-total = 6 - 2
-console.log('subtracao: ' + total)
+//Adicionar 5
+total += 5
+console.log(total)
 
-//Multiplicação
-total = 6 * 2
-console.log('multiplicacao: ' + total)
+//Subtrair 5
+total = 10
+total -= 5
+console.log(total)
 
-//Divisão
-total = 6 / 2
-console.log('divisão: ' + total)
+//Multiplcar 5
+total = 10
+total *= 5
+console.log(total)
 
-let num1 = 6
-let num2 = 6
-let totalSoma = num1 + num2
-console.log('totalSoma variaveis: ' + totalSoma)
+//Dividir 5
+total = 10
+total /= 5
+console.log(total)
 
-console.log('soma no console: ' + (num1 + num2))
+//Resto 4
+total = 10
+total %= 4
+console.log(total)
 
-//Resto da divisao
-total = 4 % 3
-console.log('Resto da divisao: ' + total)
-
-//Incremento
-total = 5
-total++
-console.log('Incremento: ' + total)
-
-//Decremento
-total = 5
-total--
-console.log('Decremento: ' + total)
-
-//Exponencial
-total = 2 ** 3
-console.log('Exponencial: ' + total)
+//Exponenciação 3
+total = 10
+total **= 3
+console.log(total)
