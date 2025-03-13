@@ -1,14 +1,17 @@
 //Operadores de Comparação
 
-//Igualdade Solta (dado)
-console.log(3 == '3')
+//Maior que
+console.log(3 > 5)
+console.log(8 > 5)
 
-//Igualdade Estrita (dado e tipo)
-console.log(3 === '3')
-console.log(3 === 3)
+//Menor que
+console.log(3 < 5)
+console.log(8 < 5)
 
-//Desigualdade Solta (dado)
-console.log(3 != '3')
+//Maior igual
+console.log(8 >= 10)
+console.log(8 >= 8)
 
-//Desigualdade Estrita (dado e tipo)
-console.log(3 !== '3')
+//Menor igual
+console.log(5 <= 3)
+console.log(5 <= 5)
