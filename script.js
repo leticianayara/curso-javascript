@@ -1,15 +1,10 @@
-// Objetos (Multiplos valores) - Tesla
+//Objeto Data e Hora (Date)
 
-let carName = 'Cybertruck'
-let carRange = 340
-let carMaxSpeed = 112
-let carHorsePower = 600
+let agora = new Date()
+console.log(agora)
 
-let car = {
-  carName: 'Cybertruck',
-  carRange: 340,
-  carMaxSpeed: 112,
-  carHorsePower: 600,
-}
+let dataEspecifica = new Date(2025, 4, 20, 10, 35, 0)
+console.log(dataEspecifica)
 
-console.log(car)
+let dataString = new Date('2024/10/20 10:35:00')
+console.log(dataString)
