@@ -1,41 +1,13 @@
-//Coerção de tipo
+//Concatenação de String
 
-let total
-total = 3 + 5
-console.log(total, typeof total)
+let firstName = 'Leticia',
+  lastName = 'Costa'
 
-total = 3 + '5' //Converte para String
-console.log(total, typeof total)
+fullName = firstName + lastName
+console.log(fullName)
 
-total = 3 + Number('5')
-console.log(total, typeof total)
+console.log(firstName + lastName)
 
-//Converte para Number
-total = 5 - 3
-console.log(total, typeof total)
+console.log(firstName + ' ' + lastName)
 
-total = 5 - '3'
-console.log(total, typeof total)
-
-total = '5' - '3'
-console.log(total, typeof total)
-
-//Converte para Number
-total = 5 * 3
-console.log(total, typeof total)
-
-total = 5 * '3'
-console.log(total, typeof total)
-
-total = '5' * '3'
-console.log(total, typeof total)
-
-//Converte para Number
-total = 5 / 3
-console.log(total, typeof total)
-
-total = 5 / '3'
-console.log(total, typeof total)
-
-total = '5' / '3'
-console.log(total, typeof total)
+console.log(firstName, lastName)
