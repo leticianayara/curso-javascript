@@ -1,13 +1,20 @@
-//Concatenação de String
+//Template Literal
 
-let firstName = 'Leticia',
-  lastName = 'Costa'
+//Sem Template
+let firstName = 'Leticia'
+let lastName = 'Costa'
+let age = 38
+console.log(
+  'Ola, meu nome e ' +
+    firstName +
+    ' ' +
+    lastName +
+    ' e eu tenho ' +
+    age +
+    ' anos de idade'
+)
 
-fullName = firstName + lastName
-console.log(fullName)
-
-console.log(firstName + lastName)
-
-console.log(firstName + ' ' + lastName)
-
-console.log(firstName, lastName)
+//Com Template
+console.log(
+  `Ola meu nome e ${firstName} ${lastName} e eu tenho ${age} anos de idade`
+)
