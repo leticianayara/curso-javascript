@@ -1,15 +1,10 @@
 //Objeto Data e Hora (Date)
+//Criar um  contador de dias para uma data espeficica. Inicio, Fim. a diferenca
+//de dias entre essas datas
 
-let data = new Date()
+let inicio = new Date('2023/10/15')
+let fim = new Date('2024/11/15')
 
-//data.setDate(9)
-console.log(data.getDate()) //dia do mes
-console.log(data.getDay()) // dia da semana (0-6), onde 0 e domingo
-//data.setMonth(0)
-console.log(data.getMonth()) // mes (0-11) onde 0 e Janeiro
-//data.setFullYear(2022)
-console.log(data.getFullYear()) // ano
-console.log(data.getHours()) // hora
-console.log(data.getMinutes()) // minutos
-console.log(data.getSeconds()) // segundos
-console.log(data.getMilliseconds()) // milisegundos
+let totalDias = (fim - inicio) / (1000 * 3600 * 24)
+
+console.log(totalDias)
