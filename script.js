@@ -1,17 +1,41 @@
-//Operadores de Comparação
+//Coerção de tipo
 
-//Maior que
-console.log(3 > 5)
-console.log(8 > 5)
+let total
+total = 3 + 5
+console.log(total, typeof total)
 
-//Menor que
-console.log(3 < 5)
-console.log(8 < 5)
+total = 3 + '5' //Converte para String
+console.log(total, typeof total)
 
-//Maior igual
-console.log(8 >= 10)
-console.log(8 >= 8)
+total = 3 + Number('5')
+console.log(total, typeof total)
 
-//Menor igual
-console.log(5 <= 3)
-console.log(5 <= 5)
+//Converte para Number
+total = 5 - 3
+console.log(total, typeof total)
+
+total = 5 - '3'
+console.log(total, typeof total)
+
+total = '5' - '3'
+console.log(total, typeof total)
+
+//Converte para Number
+total = 5 * 3
+console.log(total, typeof total)
+
+total = 5 * '3'
+console.log(total, typeof total)
+
+total = '5' * '3'
+console.log(total, typeof total)
+
+//Converte para Number
+total = 5 / 3
+console.log(total, typeof total)
+
+total = 5 / '3'
+console.log(total, typeof total)
+
+total = '5' / '3'
+console.log(total, typeof total)
