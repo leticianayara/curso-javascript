@@ -1,12 +1,8 @@
-//Arrays (Static Methods)
+//Arrays (Nested Arrays)
 
-let num1 = 10
-let num2 = 20
-let num3 = 30
-
-let allNumbers = Array.of(num1, num2, num3)
-console.log(allNumbers)
-
+let numbers = [10, 11, 12, [20, 21, 22], 30, 31, 32, [40, 41, 42]]
+console.log(numbers)
 let y
-y = Array.from('122')
+
+y = numbers.flat()
 console.log(y)
