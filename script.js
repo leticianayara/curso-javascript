@@ -1,13 +1,20 @@
-//Criar uma solução onde a lista Num1 e Num2 são
-//mescladas, corrigidas e organizadas
+// IF e ELSE e ELSE IF (se , senao)
 
-let num1 = [10, 20, 30, 40, 50]
-let num2 = [90, 80, 70, 60, 50]
-let y
+// if(condicao){
+// // Vai executar se a condicao for verdadeira
+//  }
 
-num2.reverse()
-num2.shift(0)
-y = num1.concat(num2).sort()
-console.log(y)
+// Shorthand if
+// if (hour <= 12) console.log('Bom dia')
+// else if (hour <= 18) console.log('Boa tarde')
+// else console.log('Boa noite')
 
-// print [10, 20, 30, 40, 50, 60, 70, 80, 90]
+let hour = 13
+
+if (hour < 12) {
+  console.log('Bom dia')
+} else if (hour >= 12 && hour < 18) {
+  console.log('Boa tarde')
+} else {
+  console.log('Boa noite')
+}
