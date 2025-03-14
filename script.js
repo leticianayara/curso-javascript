@@ -1,20 +1,11 @@
-// IF e ELSE e ELSE IF (se , senao)
+/**
+ * Se a pontuação for 90 ou mais, será exibido "Excelente!."
+ * Se for 75 ou mais, será exibido "Muito bom!". Para
+ * pontuacções inferiores a 75, sera "Você pode melhorar!"
+ */
 
-// if(condicao){
-// // Vai executar se a condicao for verdadeira
-//  }
+let result = 90
 
-// Shorthand if
-// if (hour <= 12) console.log('Bom dia')
-// else if (hour <= 18) console.log('Boa tarde')
-// else console.log('Boa noite')
-
-let hour = 13
-
-if (hour < 12) {
-  console.log('Bom dia')
-} else if (hour >= 12 && hour < 18) {
-  console.log('Boa tarde')
-} else {
-  console.log('Boa noite')
-}
+if (result >= 90) console.log('Excelente!')
+else if (result >= 75) console.log('Muito bom!')
+else console.log('Você pode melhorar!"')
