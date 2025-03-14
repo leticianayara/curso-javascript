@@ -1,32 +1,10 @@
-//IF ELSE com o NOT Operator
-
-let num1 = -10
-// if (num1 < 0){
-//   console.log('Favor digitar um numero positivo')
-// }
-if (!(num1 > 0)) {
-  console.log('Favor digitar um numero positivo')
-}
-
 /**
- * if(usuarioLogado){
- *     console.log('Você esta logado')
- * } else {
- *  console.log('Você precisa estar logado')
- * }
+ * Crie uma solução que verifica se o usuaro escolheu a cor
+ * 'Azul'. Caso seja uma outra cor, utilize o NOT operator
+ * para retornar a mensagem "Não temos essa cor!"
  */
-let usuarioLogado = false
-if (!usuarioLogado) {
-  console.log('Você precisa estar logado')
-}
 
-let listaProdutos = ['Andre']
-
-// if (listaProdutos.length) {
-//   console.log('A lista tem produtos')
-// } else {
-//   console.log('A lista esta vazia')
-// }
-if (!listaProdutos.length) {
-  console.log('A lista esta vazia')
+let corEscolhida = 'Amarelo'
+if (!(corEscolhida === 'Azul')) {
+  console.log('Não temos essa cor!')
 }
