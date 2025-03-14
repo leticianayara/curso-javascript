@@ -1,32 +1,32 @@
-/* Vamos criar um sistema de autenticação que verifica vários
-condições antes de permitir acesso
+//IF ELSE com o NOT Operator
 
-let usuarioValido
-let senhaCorreta
-let temPermissao
+let num1 = -10
+// if (num1 < 0){
+//   console.log('Favor digitar um numero positivo')
+// }
+if (!(num1 > 0)) {
+  console.log('Favor digitar um numero positivo')
+}
 
-Mensagens:
-Acesso permitido!
-Acesso negado. Usuário sem permissão.
-Senha incorreta. Tente novamente.
-Usuário não encontrado.
+/**
+ * if(usuarioLogado){
+ *     console.log('Você esta logado')
+ * } else {
+ *  console.log('Você precisa estar logado')
+ * }
+ */
+let usuarioLogado = false
+if (!usuarioLogado) {
+  console.log('Você precisa estar logado')
+}
 
-*/
+let listaProdutos = ['Andre']
 
-let usuarioValido = true
-let senhaCorreta = true
-let temPermissao = false
-
-if (usuarioValido) {
-  if (temPermissao && senhaCorreta) {
-    console.log('Acesso permitido!')
-  } else {
-    if (!temPermissao) {
-      console.log('Acesso negado. Usuário sem permissão.')
-    } else if (!senhaCorreta) {
-      console.log('Senha incorreta. Tente novamente.')
-    }
-  }
-} else {
-  console.log('Usuário não encontrado.')
+// if (listaProdutos.length) {
+//   console.log('A lista tem produtos')
+// } else {
+//   console.log('A lista esta vazia')
+// }
+if (!listaProdutos.length) {
+  console.log('A lista esta vazia')
 }
