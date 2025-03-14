@@ -1,8 +1,13 @@
-//Arrays (Nested Arrays)
+//Criar uma solução onde a lista Num1 e Num2 são
+//mescladas, corrigidas e organizadas
 
-let numbers = [10, 11, 12, [20, 21, 22], 30, 31, 32, [40, 41, 42]]
-console.log(numbers)
+let num1 = [10, 20, 30, 40, 50]
+let num2 = [90, 80, 70, 60, 50]
 let y
 
-y = numbers.flat()
+num2.reverse()
+num2.shift(0)
+y = num1.concat(num2).sort()
 console.log(y)
+
+// print [10, 20, 30, 40, 50, 60, 70, 80, 90]
