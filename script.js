@@ -1,20 +1,10 @@
-//Arrays (listas)
+/* Criar uma solução que concatena o terceiro item
+da lista logo abaixo ao texto na console
+ */
 
-let cart = ['Agua', 'Arroz', 'Carne', 'Feijão']
-console.log(cart)
-console.log(cart[2])
-console.log(cart[0])
-console.log(cart[3])
+let petShop = ['Dogs', 'Cats', 'Birds', 'Hamsters']
 
-console.log(`A minha comida favorita é ${cart[1]}, ${cart[3]} e ${cart[2]} `)
+//prints 'In the second cage we have: Birds'
 
-console.log(`A minha lista de compras para hoje contém os itens: ${cart}`)
-
-//<nome do campo>[<numero do campo>] - Qual o index do elemento do item que eu quero alterar
-let numbers = [10, 20, 33, 40, 5, 13, true]
-console.log(numbers[3])
-console.log(numbers[0] + numbers[2])
-console.log(numbers)
-console.log(cart)
-cart[1] = 'Laranja'
-console.log(cart)
+console.log(`In the second cage we have: ${petShop[2]}`)
+console.log('In the second cage we have: ' + petShop[2])
