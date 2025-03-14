@@ -1,19 +1,12 @@
-//Arrays (Concatenate)
+//Arrays (Static Methods)
 
-let cart = ['Agua', 'Carne', 'Arroz', 'Feijão']
-let numbers = [10, 20, 33, 40, 5, 13, true]
-let cartNumbers = [cart, numbers]
+let num1 = 10
+let num2 = 20
+let num3 = 30
+
+let allNumbers = Array.of(num1, num2, num3)
+console.log(allNumbers)
+
 let y
-
-//Nesting
-//cart.push(numbers)
-//console.log(cart)
-
-//Concatenate - coloco os itens de um array , dentro de outro array
-y = cart.concat(numbers)
-
-//console.log(cartNumbers)
-//y = cartNumbers[0][1]
-//y = cartNumbers[1][3]
-
+y = Array.from('122')
 console.log(y)
