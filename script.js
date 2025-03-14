@@ -1,10 +1,26 @@
-/* Criar uma solução que concatena o terceiro item
-da lista logo abaixo ao texto na console
- */
+//Arrays (Metodos)
 
-let petShop = ['Dogs', 'Cats', 'Birds', 'Hamsters']
+let cart = ['Agua', 'Arroz', 'Carne', 'Feijão']
+let numbers = [10, 20, 33, 40, 5, 13, true]
 
-//prints 'In the second cage we have: Birds'
+//Add um item na lista
+//cart[4] = 'Suco'
+cart.push('Suco') //add um item na lista
+//console.log(cart.length)
+console.log(cart)
 
-console.log(`In the second cage we have: ${petShop[2]}`)
-console.log('In the second cage we have: ' + petShop[2])
+//Remover um item da lista
+cart.pop()
+console.log(cart)
+
+//Remove o primeiro item da lista
+cart.shift()
+console.log(cart)
+
+//Add o item ao inicio da lista
+cart.unshift('Suco')
+console.log(cart)
+
+//Coloca a lista em ordem alfabetica (ou numerica)
+cart.sort()
+console.log(cart)
