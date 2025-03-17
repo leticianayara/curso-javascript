@@ -1,19 +1,32 @@
-// O Swith e Case (se parece, IF ELSE)
-// Nivel do usuario no nosso sistema
+/**
+ * Criar uma solução com o switch que retorne:
+ * hora < 12 : Bom dia
+ * hora < 18 : Boa tarde
+ * hora >= 18 : Boa noite
+ * A hora deve ser coletada do sistema local
+ */
 
-let userLevel = 'visitant' //admin, editor, guest
+let agora = new Date()
+//let agora = new Date(2030, 1, 8, 19, 0, 0)
 
-switch (userLevel) {
-  case 'admin':
-    console.log('Full Access')
+let horas = agora.getHours()
+
+// if (horas < 12) {
+//   console.log('Bom dia')
+// } else if (horas < 18) {
+//   console.log('Boa tarde')
+// } else {
+//   console.log('Boa noite')
+// }
+
+switch (true) {
+  case horas < 12:
+    console.log('Bom dia')
     break
-  case 'editor':
-    console.log('Editor Access')
-    break
-  case 'guest':
-    console.log('Limited Access')
+  case horas < 18:
+    console.log('Boa tarde')
     break
   default:
-    console.log('Unknown User')
+    console.log('Boa noite')
     break
 }
