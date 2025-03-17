@@ -1,30 +1,22 @@
-// Objetos, nested, Array
+// Functions - Funções
 
-let biblioteca = {
-  fantasy: [
-    {
-      anoPublicaca: 1954,
-      autor: 'J.R.R. Tolkien',
-      titulo: 'O Senhor dos Anéis',
-    },
-    {
-      autor: 'J.K. Rowling',
-      anoPublicaca: 1997,
-      titulo: 'Harry Potter',
-    },
-  ],
-  ficcaoCientifica: [
-    {
-      autor: 'Frank Herbert',
-      anoPublicaca: 1965,
-      titulo: 'Duna',
-    },
-    {
-      autor: 'Isaac Asimov',
-      anoPublicaca: 1951,
-      titulo: 'Fundação',
-    },
-  ],
+// Functions são como grupos, o que acontece em um
+// não afeta o outro
+
+// function <nome_da_funcao>(<parametro(s)>){ <conteudo da funcao> }
+function somar(num1, num2) {
+  // console.log(num1 + num2)
+  return num1 + num2
 }
 
-console.log(biblioteca)
+// subtrair
+function subtrair(num1, num2) {
+  console.log(num1 - num2)
+}
+
+// invokin a function
+// <nome_da_funcao>(<argumento(s)>)
+somar(3, 7)
+let resultad = somar(10, 4)
+console.log(resultad)
+subtrair(5, 2)
