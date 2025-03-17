@@ -1,10 +1,11 @@
-/**
- * Crie uma solução que verifica se o usuaro escolheu a cor
- * 'Azul'. Caso seja uma outra cor, utilize o NOT operator
- * para retornar a mensagem "Não temos essa cor!"
- */
+// Precedência dos Operadores
 
-let corEscolhida = 'Amarelo'
-if (!(corEscolhida === 'Azul')) {
-  console.log('Não temos essa cor!')
+let resultado = 3 + 4 * 5 // 3 + (4 * 5) = 23 , (3 + 4) * 5 = 35
+console.log(resultado)
+
+let num1 = 5
+if ((num1 == 5 || num1 === 3) && num1 > 8) {
+  console.log('Resultado correto!')
+} else {
+  console.log('Errado!')
 }
