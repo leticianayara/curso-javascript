@@ -1,14 +1,23 @@
-// Operadores Ternários
+//Desafio Operador ternário
 
-let idade = 17
+let nota = 85
+let avaliacao =
+  nota >= 90
+    ? 'Excelente'
+    : nota >= 70
+    ? 'Bom'
+    : nota >= 50
+    ? 'Satisfatório'
+    : 'Insatisfatório'
 
-// if (idade < 18) {
-//   console.log('Menor de idade')
+// if (nota >= 90) {
+//   avaliacao = 'Excelente'
+// } else if (nota >= 70) {
+//   avaliacao = 'Bom'
+// } else if (nota >= 50) {
+//   avaliacao = 'Satisfatório'
 // } else {
-//   console.log('Maior de idade')
+//   avaliacao = 'Insatisfatório'
 // }
 
-// let resultado = idade < 18 ? 'Menor' : 'Maior'
-// console.log(resultado + ' de idade')
-
-idade < 18 ? console.log('Menor de idade') : console.log('Maior de idade')
+console.log(avaliacao) //Bom
