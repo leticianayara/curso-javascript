@@ -1,22 +1,19 @@
-// Functions - Funções
+// Functions - Parametros
 
-// Functions são como grupos, o que acontece em um
-// não afeta o outro
-
-// function <nome_da_funcao>(<parametro(s)>){ <conteudo da funcao> }
-function somar(num1, num2) {
-  // console.log(num1 + num2)
-  return num1 + num2
+//Padrão - default
+function calcularTotal(preco, desconto = 0.1) {
+  let valorDesconto = preco * desconto
+  let totalCompra = preco - valorDesconto
+  return totalCompra
 }
 
-// subtrair
-function subtrair(num1, num2) {
-  console.log(num1 - num2)
+console.log(calcularTotal(100, 0.15))
+console.log(calcularTotal(100))
+
+// REST (...<parametros>)
+function listaCompras(...itens) {
+  console.log(itens)
+  console.log('Itens da minha lista: ' + itens)
 }
 
-// invokin a function
-// <nome_da_funcao>(<argumento(s)>)
-somar(3, 7)
-let resultad = somar(10, 4)
-console.log(resultad)
-subtrair(5, 2)
+listaCompras('Pao', 'Carne', 'Milho')
