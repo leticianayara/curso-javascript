@@ -1,16 +1,14 @@
-// Truthy e Falsy (IF ELSE, Loop, Ope Logicos)
+// Operadores Ternários
 
-let texto = 'Andre' //Truthy
-//let texto = '' //Falsy
-// let texto = 0 //Falsy
-//let texto = null //Falsy
-//let texto = undefined //Falsy
-//let texto = NaN //Falsy
+let idade = 17
 
-//qq coisa que seja um conteudo, sera Truthy
+// if (idade < 18) {
+//   console.log('Menor de idade')
+// } else {
+//   console.log('Maior de idade')
+// }
 
-if (texto) {
-  console.log('Truthy')
-} else {
-  console.log('Falsy')
-}
+// let resultado = idade < 18 ? 'Menor' : 'Maior'
+// console.log(resultado + ' de idade')
+
+idade < 18 ? console.log('Menor de idade') : console.log('Maior de idade')
