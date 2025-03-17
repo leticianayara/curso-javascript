@@ -1,19 +1,24 @@
-// Functions - Parametros
+// Functions
 
-//Padrão - default
-function calcularTotal(preco, desconto = 0.1) {
-  let valorDesconto = preco * desconto
-  let totalCompra = preco - valorDesconto
-  return totalCompra
+function saudacao(nome) {
+  function mensagem() {
+    console.log('Olá ' + nome)
+  }
+  return mensagem()
 }
 
-console.log(calcularTotal(100, 0.15))
-console.log(calcularTotal(100))
+saudacao('Leticia')
 
-// REST (...<parametros>)
-function listaCompras(...itens) {
-  console.log(itens)
-  console.log('Itens da minha lista: ' + itens)
+//Criar um app para gerar os 6 números da
+//Mega-sena
+function gerarNumeros() {
+  console.log(Math.floor(Math.random() * 60)) + 1
 }
 
-listaCompras('Pao', 'Carne', 'Milho')
+function sorteio() {
+  for (i = 0; i < 6; i++) {
+    gerarNumeros()
+  }
+}
+
+sorteio()
