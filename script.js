@@ -1,30 +1,19 @@
-// O Swith e Case
+// O Swith e Case (se parece, IF ELSE)
+// Nivel do usuario no nosso sistema
 
-let dia = 5
+let userLevel = 'visitant' //admin, editor, guest
 
-switch (dia) {
-  case 1:
-    console.log('Domingo')
+switch (userLevel) {
+  case 'admin':
+    console.log('Full Access')
     break
-  case 2:
-    console.log('Segunda')
+  case 'editor':
+    console.log('Editor Access')
     break
-  case 3:
-    console.log('Terça')
-    break
-  case 4:
-    console.log('Quarta')
-    break
-  case 5:
-    console.log('Quinta')
-    break
-  case 6:
-    console.log('Sexta')
-    break
-  case 7:
-    console.log('Sábado')
+  case 'guest':
+    console.log('Limited Access')
     break
   default:
-    console.log('Não é dia da semana!')
+    console.log('Unknown User')
     break
 }
