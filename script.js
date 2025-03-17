@@ -1,24 +1,23 @@
-// Functions
+//Function Declaration (associa o nome)
 
-function saudacao(nome) {
-  function mensagem() {
-    console.log('Olá ' + nome)
-  }
-  return mensagem()
+function somar(num1, num2) {
+  return num1 + num2
 }
+console.log(somar(10, 20))
 
-saudacao('Leticia')
-
-//Criar um app para gerar os 6 números da
-//Mega-sena
-function gerarNumeros() {
-  console.log(Math.floor(Math.random() * 60)) + 1
+// Functions Expression (associa a uma variavel)
+const subtrair = function (num1, num2) {
+  return num1 - num2
 }
+console.log(subtrair(20, 10))
 
-function sorteio() {
-  for (i = 0; i < 6; i++) {
-    gerarNumeros()
-  }
+// Arrow function com implicity return
+const subtrair2 = (num1, num2) => num1 - num2
+console.log(subtrair2(30, 15))
+
+//Arrow function sem implicity return
+const subtrair3 = (num1, num2) => {
+  console.log('Hello')
+  return num1 - num2
 }
-
-sorteio()
+console.log(subtrair3(40, 15))
