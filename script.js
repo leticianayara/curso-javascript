@@ -1,11 +1,30 @@
-// Precedência dos Operadores
+// O Swith e Case
 
-let resultado = 3 + 4 * 5 // 3 + (4 * 5) = 23 , (3 + 4) * 5 = 35
-console.log(resultado)
+let dia = 5
 
-let num1 = 5
-if ((num1 == 5 || num1 === 3) && num1 > 8) {
-  console.log('Resultado correto!')
-} else {
-  console.log('Errado!')
+switch (dia) {
+  case 1:
+    console.log('Domingo')
+    break
+  case 2:
+    console.log('Segunda')
+    break
+  case 3:
+    console.log('Terça')
+    break
+  case 4:
+    console.log('Quarta')
+    break
+  case 5:
+    console.log('Quinta')
+    break
+  case 6:
+    console.log('Sexta')
+    break
+  case 7:
+    console.log('Sábado')
+    break
+  default:
+    console.log('Não é dia da semana!')
+    break
 }
