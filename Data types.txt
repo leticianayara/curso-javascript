@@ -1,0 +1,29 @@
+Data types
+	Primitive
+		String - dentro de aspas simples ( ' ) ou aspas duplas ( " )
+		Number - qualquer variável de tenha números
+		Boolean - valores true ou false
+		Null - ele é um objeto com o valor null
+		Undefined - não é um objeto ainda
+		Symbol - 
+	References
+		Arrays - listas 
+		Function - funções
+		Date - datas do sistemas
+
+
+
+Converter String para Number
+	ParseInt - retorna inteiros
+	ParseFloat - retorna números fracionários
+	Unario - usando o + na frente, retorna tanto inteiros quanto fracionários
+	Number - usando o Number(<qq coisa>)
+
+Converter Number para String
+	toString() - usa a variável.toString()
+	String(<qq coisa>) - a variável recebe o retorno disso tudo
+
+Converter Number para Boolean
+	Boolean(<qq coisa>) - retorna false (quando recebe 0) ou true (qq coisa != 0)
+Template Literal
+	Usando `` (crase dupla) e ${} (dólar e chaves), nós conseguimos montar o texto sem ficar concatenando ele
